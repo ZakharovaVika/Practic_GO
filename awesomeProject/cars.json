@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Toyota",
+    "model": "Rav 4",
+    "run": 100000,
+    "owners": 3
+  },
+  {
+    "id": "2",
+    "name": "BMW",
+    "model": "3-Series",
+    "run": 50000,
+    "owners": 1
+  },
+  {
+    "id": "3",
+    "name": "Haval",
+    "model": "M6",
+    "run": 100000,
+    "owners": 2
+  }
+]

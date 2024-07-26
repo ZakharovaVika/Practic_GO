@@ -164,7 +164,7 @@ func main() {
 	if err := loadCarsFromFile("cars.json"); err != nil {
 		// Если файл не существует, создаем новый с машинами по умолчанию
 		if os.IsNotExist(err) {
-			fmt.Println("File not found, creating a new one with default albums.")
+			fmt.Println("File not found, creating a new one with default models.")
 			cars = []car{
 				{ID: "1", Name: "Toyota", Model: "Rav 4", Run: 100000, Owners: 3},
 				{ID: "2", Name: "BMW", Model: "3-Series", Run: 50000, Owners: 1},
